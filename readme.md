@@ -14,8 +14,12 @@ A little example:
 ```
 const escapecharater = require('escapecharacter');
 
+//convert will return a string
 let test = escapecharater.convert('./textArt.txt');
 console.log(test);
 
+//convertFile will modify the file
 escapecharater.convertFile('./textArt.txt');
 ```
+If you check the source code of convert, you'll notice it just use <br>
+`fs.readFileSync(path, 'utf8');`
