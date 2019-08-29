@@ -16,7 +16,5 @@
     "url": "https://github.com/haerphi/NodeEscapeCharacter/issues"
   },
   "homepage": "https://github.com/haerphi/NodeEscapeCharacter#readme",
-  "dependencies": {
-    "file-system": "^2.2.2"
-  }
+  "dependencies": {}
 }
