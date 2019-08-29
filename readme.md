@@ -1,4 +1,4 @@
-# Text art escape carater
+# Text art escape charater
 Hi, welcome in my npm package to convert your text art !
 ## Warning
 The convert edit the file, I doesn't create a new file with the result.
