@@ -21,6 +21,7 @@ function convert(path) {
         if (err) throw err;
         console.log('Saved!');
     });
+    return newOne;
 }
 
 let path = process.argv[2];
