@@ -10,7 +10,7 @@ The convert edit the file, I doesn't create a new file with the result.
  - Convert your file : `node . PathToYourFile``
  - Enjoy
 ### Npm
-Example:
+A little example:
 ```
 const escapecharater = require('escapecharacter');
 
