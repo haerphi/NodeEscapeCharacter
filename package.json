@@ -1,6 +1,6 @@
 {
   "name": "escapecharater",
-  "version": "1.0.2",
+  "version": "1.0.7",
   "description": "It escape all speciales character from a file.",
   "main": "index.js",
   "scripts": {

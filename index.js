@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 
-function convert(path) {
+exports.convertFile = function convertFile(path) {
     var text = fs.readFileSync(path, 'utf8');
     console.log(text);
     let newOne = ``;
@@ -24,11 +24,14 @@ function convert(path) {
     return newOne;
 }
 
+exports.convert = function convert(path) {
+    var text = fs.readFileSync(path, 'utf8');
+    return text;
+}
+
 let path = process.argv[2];
 if (path != undefined) {
     convert(path);
 } else {
     console.log('Merci de rajouter un argument');
 }
-
-module.exports = convert;

@@ -1,4 +1,4 @@
-# Text art escape charater
+# Text art escape character
 Hi, welcome in my npm package to convert your text art !
 ## Warning
 The convert edit the file, I doesn't create a new file with the result.
@@ -10,4 +10,12 @@ The convert edit the file, I doesn't create a new file with the result.
  - Convert your file : `node . PathToYourFile``
  - Enjoy
 ### Npm
-Coming soon
+Example:
+```
+const escapecharater = require('escapecharacter');
+
+let test = escapecharater.convert('./textArt.txt');
+console.log(test);
+
+escapecharater.convertFile('./textArt.txt');
+```
