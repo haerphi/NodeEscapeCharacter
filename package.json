@@ -1,0 +1,22 @@
+{
+  "name": "escapecharater",
+  "version": "0.0.1",
+  "description": "It escape all speciales character from a file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haerphi/NodeEscapeCharacter.git"
+  },
+  "author": "Haerphi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haerphi/NodeEscapeCharacter/issues"
+  },
+  "homepage": "https://github.com/haerphi/NodeEscapeCharacter#readme",
+  "dependencies": {
+    "file-system": "^2.2.2"
+  }
+}
